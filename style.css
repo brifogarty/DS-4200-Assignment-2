@@ -1,0 +1,115 @@
+html {
+  font-size: 10px;
+  font-family: 'Abel', sans-serif;
+  font-family: 'Bungee', cursive;
+  background-color: #FF7139;
+}
+
+body {
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 50px;
+  color: #2364F0;
+  text-align: left;
+  padding-left: 10px;
+  margin-top: 15px;
+  /* text-shadow: 3px 3px 1px #012773; */
+  float: left;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+p, li {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: orange;
+}
+
+#header {
+  height: 100px;
+  width: 100vw;
+  background-color: white;
+}
+
+#icon {
+  width: 75px;
+  height: 75px;
+  margin: 10px 0;
+  padding-left: 20px;
+  display: block;
+  float: left;
+}
+
+#username {
+  font-family: Abel;
+  font-size: 20px;
+  color: #2364F0;
+  float: right;
+  line-height: 1;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+#user-button {
+  float: right;
+  background-color: #FF7139;
+  border: 4px solid #FF7139;
+  border-radius: 12px;
+  font-family: Abel;
+  color: white;
+  padding: 15px 32px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+#user-button:hover {
+  background-color: white;
+  color: #0290EE;
+}
+
+#content {
+  height: 83vh;
+  width: 95%;
+  margin: auto;
+  background-color: #0290EE;
+}
+
+#about {
+  width: 40%;
+  clear: both;
+  float: left;
+  padding: 20px;
+}
+
+#window {
+  width: 45%;
+  float: right;
+  padding: 40px;
+}
+
+#footer {
+  clear: both;
+  height: 58px;
+  width: 100vw;
+  background-color: white;
+}
